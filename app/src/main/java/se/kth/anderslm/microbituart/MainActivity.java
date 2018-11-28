@@ -22,7 +22,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 /**
- * A example on how to use the Android BLE API to connect to a BLE device, in this case
+ * An example on how to use the Android BLE API to connect to a BLE device, in this case
  * a BBC Micro:bit, and read some data from UART.
  * The actual manipulation of the sensors services and characteristics is performed in the
  * DeviceActivity class.
