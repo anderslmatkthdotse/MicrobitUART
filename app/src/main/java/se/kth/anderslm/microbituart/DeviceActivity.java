@@ -189,12 +189,6 @@ public class DeviceActivity extends AppCompatActivity {
                     mDataView.setText(msg);
                 }
             });
-
-            // send a reply
-            BluetoothGattCharacteristic uartRxCharacteristic =
-                    mUartService.getCharacteristic(UART_RX_CHARACTERISTIC_UUID);
-            uartRxCharacteristic.setValue("Well, hello!!");
-            // TODO: ? Write?????????????????
         }
 
         @Override
